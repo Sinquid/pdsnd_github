@@ -1,3 +1,4 @@
+#add imports
 import time
 import pandas as pd
 import numpy as np
@@ -12,7 +13,7 @@ MONTHS = ['january', 'february', 'march', 'april', 'may', 'june']
 
 DAYS = ['sunday', 'monday', 'tuesday', 'wednesday', \
         'thursday', 'friday', 'saturday' ]          
-
+#start
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -95,6 +96,7 @@ def time_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
 
@@ -171,9 +173,7 @@ def user_stats(df):
         most_common_birth_year = df['Birth Year'].value_counts().idxmax()
         print('The most common year of birth: ', most_common_birth_year)
 
-
-
-
+    
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
