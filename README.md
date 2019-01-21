@@ -5,7 +5,7 @@
 
 
 ### Description
-Describe what your project is about and what it does
+This is the project description for Udacity's Programming for Data Science course.
 
 ### Files used
 Include the files used
